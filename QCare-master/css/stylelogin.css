@@ -1,0 +1,66 @@
+body{
+	margin: 0px auto;
+	background-color: #81D4FA;
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+.container{
+	width: 450px;
+	height: 380px;
+	text-align: center;
+	background-color: #005F8D;
+	border-radius: 8px;
+	margin: 0px auto;
+	margin-top: 150px;
+}
+.image{	
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 80px;	
+}
+.gambar{	
+	width: 150px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	margin-left: -134px;
+	position: absolute;
+}
+input[type="text"], input[type="password"]{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 55px;
+	color: #BDBDBD;
+	border-radius: 4px;
+	border: none;
+}
+.form-input::before{
+content: "\f007";
+position: absolute;
+font-family: "FontAwesome";
+padding-left: 7px;
+padding-top: 7px;
+padding-bottom: 5px;
+padding-right: 10px;
+font-size: 35px;
+color: #bdc3c7;
+}
+.form-input:nth-child(2)::before{
+content: "\f023";
+padding-left: 11px;
+position: absolute;
+}
+.login{
+	padding: 10px 100px;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	background-color: #0097C2;
+	cursor: pointer;
+	margin-top: 20px;
+	font-family: 'Arial';	
+	font-size: 18px;
+}
